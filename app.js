@@ -95,23 +95,7 @@ else {
 
 alert('Now, two more questions with the possibility to earn points. Dont worry its Whos Line Is It Anyway rules, points dont matter!');
 
-let q6 = prompt('Whats my favorite single digit number?');
-if (q6 > 7) {
-  alert('Too high, try again.');
-  q6 = prompt('Whats my favorite single digit number?');
-}
-else if (q6 < 7) {
-  alert('Too low, try again.');
-  q6 = prompt('Whats my favorite single digit number?');
-}
-else if (q6 === 7) {
-  alert('Points for you!');
-  userpoints + 4;
-}
-else {
-  alert('Please guess a single digit number.');
-  q6 = prompt('Whats my favorite single digit number?');
-}
+
 
 
 
